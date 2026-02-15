@@ -1,0 +1,17 @@
+# Ignore huge data and logs
+data/
+output/
+logs/
+__pycache__/
+*.xlsx
+*.csv
+*.log
+
+# Ignore secrets (NEVER commit these)
+.env
+api_keys.txt
+processed_papers.json
+
+# Ignore system files
+.DS_Store
+.env
